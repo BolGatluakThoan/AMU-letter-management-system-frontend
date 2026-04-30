@@ -1,0 +1,11 @@
+{
+  "name": "lms-root",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix server\" \"npm run dev --prefix lms\"",
+    "install:all": "npm install --prefix server && npm install --prefix lms"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

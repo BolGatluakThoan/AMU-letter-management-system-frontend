@@ -1,0 +1,101 @@
+export default {
+  // ── Navigation ──
+  dashboard: 'Dashboard', incoming: 'Incoming Letters', outgoing: 'Outgoing Letters',
+  archive: 'Archive Records', tracking: 'Tracking', messages: 'Messages',
+  users: 'User Management', settings: 'Settings', help: 'Help & Support',
+  profile: 'My Profile', recycle_bin: 'Recycle Bin', campuses: 'Campuses', reports: 'Reports',
+  // ── Dashboard ──
+  total_incoming: 'Total Incoming', total_outgoing: 'Total Outgoing',
+  pending_action: 'Pending Action', urgent_unread: 'Urgent Unread',
+  all_registered: 'All registered letters', all_dispatched: 'All dispatched letters',
+  click_review: 'Click to review & act', urgent_unread_sub: 'Urgent & unread letters',
+  recent_incoming: 'Recent Incoming Letters', latest_correspondence: 'Latest registered correspondence',
+  view_all: 'View all', status_breakdown: 'Status Breakdown', quick_actions: 'Quick Actions',
+  university_offices: 'University Offices', register_incoming: 'Register Incoming',
+  register_outgoing: 'Register Outgoing', view_reports: 'View Reports',
+  review_pending: 'Review Pending', good_morning: 'Good morning',
+  good_afternoon: 'Good afternoon', good_evening: 'Good evening',
+  university_lms: 'University LMS', centralized_mgmt: 'Centralized Letter Management',
+  // ── Letters ──
+  register_letter: 'Register Letter', referral_number: 'Referral Number',
+  referral_placeholder: 'e.g. FIN/PROC/045/2026', referral_hint: 'Format: DEPT/SECTION/SERIAL/YEAR',
+  referral_required: 'Referral number is required before dispatching.',
+  referral_duplicate: 'This referral number already exists.',
+  sender: 'Sender Name', organization: 'Organization', subject: 'Subject',
+  department: 'Department', date_received: 'Date Received', date_prepared: 'Date Prepared',
+  priority: 'Priority', status: 'Status', remarks: 'Remarks', attachments: 'Attach Documents',
+  dispatch: 'Dispatch', stamp_dispatch: 'Stamp & Dispatch', dispatching: 'Dispatching...',
+  ref_no: 'Ref No.', date: 'Date', from: 'From', to_office: 'To Office',
+  mode: 'Mode of Delivery', recipient: 'Recipient', dispatch_method: 'Dispatch Method',
+  tracking_no: 'Tracking No.', responsible_officer: 'Responsible Officer',
+  related_incoming: 'Related Incoming', notes: 'Notes', priority_normal: 'Normal',
+  priority_urgent: 'Urgent', priority_confidential: 'Confidential',
+  // ── CC ──
+  cc_copies: 'CC / Copies', add_copy: 'Add Copy', copy_no: 'Copy No.',
+  concerned_body: 'Concerned Body', copy_file: 'File (optional)', remove_copy: 'Remove',
+  // ── Status ──
+  registered: 'Registered', forwarded: 'Forwarded', under_review: 'Under Review',
+  responded: 'Responded', closed: 'Closed', dispatched: 'Dispatched',
+  draft: 'Draft', approved: 'Approved', sent: 'Sent', delivered: 'Delivered',
+  // ── Actions ──
+  save: 'Save', cancel: 'Cancel', close: 'Close', edit: 'Edit', delete: 'Delete',
+  restore: 'Restore', view: 'View', search: 'Search', filter: 'Filter', clear: 'Clear',
+  export_csv: 'Export CSV', upload: 'Upload', add_user: 'Add User', sign_out: 'Sign Out',
+  mark_read: 'Mark Read', mark_all_read: 'Mark all read', responded_btn: 'Responded',
+  // ── Settings ──
+  language: 'Language', select_language: 'Select Language', theme: 'Theme',
+  notifications: 'Notifications', system_settings: 'System Settings',
+  profile_settings: 'Profile Settings', security_settings: 'Security Policy',
+  notification_settings: 'Notification Configuration', language_settings: 'Language',
+  org_settings: 'Organization Settings', letter_config: 'Letter Configuration',
+  workflow: 'Status Workflow', file_mgmt: 'File Management', backup: 'Backup & Maintenance',
+  sys_info: 'System Information', audit_log: 'Audit Log', admin_access: 'Administrator access',
+  view_only_sections: 'View-only for some sections',
+  // ── Users ──
+  user_management: 'User Management', add_user_title: 'Add New User', edit_user: 'Edit User',
+  delete_user: 'Delete User', user_role: 'Role', user_group: 'Office', username: 'Username',
+  password: 'Password', full_name: 'Full Name', email: 'Email', reset_password: 'Reset Password',
+  // ── Reports ──
+  reports_analytics: 'Reports & Analytics', showing_data: 'Showing data for',
+  incoming_by_status: 'Incoming by Status', priority_dist: 'Priority Distribution',
+  outgoing_by_status: 'Outgoing by Status', letters_by_dept: 'Letters by Department',
+  resolution_rate: 'Resolution Rate', quick_stats: 'Quick Stats',
+  with_attachments: 'With Attachments', letters_with_cc: 'Letters with CC',
+  total_cc_copies: 'Total CC Copies', pending_letters: 'Pending Action',
+  // ── Notifications ──
+  new_letter: 'New letter', urgent_prefix: 'Urgent', no_notifications: 'No notifications',
+  unread: 'unread', read: 'Read', new_outgoing_dispatched: 'New outgoing letter dispatched.',
+  reference: 'Reference',
+  // ── General ──
+  loading: 'Loading...', no_data: 'No data found', welcome: 'Welcome',
+  lms_portal: 'LMS Portal', letter_management: 'Letter Management',
+  showing: 'Showing', of: 'of', letters: 'letters', total: 'Total',
+  all_statuses: 'All Statuses', all_priorities: 'All Priorities',
+  no_letters_found: 'No letters found', no_users_found: 'No users found',
+  collapse: 'Collapse', search_placeholder: 'Search letters, references...',
+  search_ref: 'Search ref, sender, subject...', search_staff: 'Search staff...',
+  // ── Help ──
+  help_title: 'Help & Support', how_can_we_help: 'How can we help you?',
+  search_help: 'Search help articles...', topics: 'Topics', still_need_help: 'Still need help?',
+  contact_admin: 'Contact Admin',
+  // ── Profile ──
+  my_profile: 'My Profile', personal_info: 'Personal Info', change_password: 'Change Password',
+  current_password: 'Current Password', new_password: 'New Password', confirm_password: 'Confirm New Password',
+  // ── Tracking ──
+  letter_tracking: 'Letter Tracking', track: 'Track', letter_journey: 'Letter Journey',
+  letter_details: 'Letter Details', not_found: 'Reference not found',
+  // ── Archive ──
+  archive_records: 'Archive Records', total_records: 'total records',
+  all_records: 'All Records', completed: 'Completed', with_files: 'With Files',
+  // ── Recycle Bin ──
+  recycle_bin_title: 'Recycle Bin', my_deleted: 'My Deleted Items',
+  system_recycle: 'System Recycle Bin', permanently_deleted_after: 'Items are permanently deleted after',
+  days: 'days', expires: 'Expiring', restore_item: 'Restore Item',
+  // ── Chat ──
+  messages_title: 'Messages', select_staff: 'Select a staff member to chat',
+  private_messages: 'Messages are private between you and the recipient',
+  no_messages: 'No messages yet. Say hello!', quick_messages: 'Quick Messages',
+  send_to_all: 'Send to ALL colleagues', type_for_everyone: 'Type a message for everyone...',
+  send_all: 'Send All', sent: 'Sent!', replying_to: 'Replying to',
+  edited: 'edited', message_deleted: 'This message was deleted',
+};

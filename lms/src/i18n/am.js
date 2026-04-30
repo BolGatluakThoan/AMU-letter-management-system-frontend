@@ -1,0 +1,102 @@
+export default {
+  // ── Navigation ──
+  dashboard: 'ዳሽቦርድ', incoming: 'የሚገቡ ደብዳቤዎች', outgoing: 'የሚወጡ ደብዳቤዎች',
+  archive: 'መዝገብ ቤት', tracking: 'ክትትል', messages: 'መልዕክቶች',
+  users: 'የተጠቃሚ አስተዳደር', settings: 'ቅንብሮች', help: 'እርዳታ እና ድጋፍ',
+  profile: 'የእኔ መገለጫ', recycle_bin: 'ቆሻሻ መጣያ', campuses: 'ካምፓሶች', reports: 'ሪፖርቶች',
+  // ── Dashboard ──
+  total_incoming: 'ጠቅላላ የሚገቡ', total_outgoing: 'ጠቅላላ የሚወጡ',
+  pending_action: 'በመጠባበቅ ላይ', urgent_unread: 'አስቸኳይ ያልተነበቡ',
+  all_registered: 'ሁሉም የተመዘገቡ ደብዳቤዎች', all_dispatched: 'ሁሉም የተላኩ ደብዳቤዎች',
+  click_review: 'ለመገምገም ጠቅ ያድርጉ', urgent_unread_sub: 'አስቸኳይ እና ያልተነበቡ ደብዳቤዎች',
+  recent_incoming: 'የቅርብ ጊዜ የሚገቡ ደብዳቤዎች', latest_correspondence: 'የቅርብ ጊዜ ደብዳቤዎች',
+  view_all: 'ሁሉንም ይመልከቱ', status_breakdown: 'የሁኔታ ትንታኔ', quick_actions: 'ፈጣን ድርጊቶች',
+  university_offices: 'የዩኒቨርሲቲ ቢሮዎች', register_incoming: 'የሚገባ ደብዳቤ ይመዝግቡ',
+  register_outgoing: 'የሚወጣ ደብዳቤ ይመዝግቡ', view_reports: 'ሪፖርቶችን ይመልከቱ',
+  review_pending: 'በመጠባበቅ ላይ ያሉትን ይገምግሙ', good_morning: 'እንደምን አደሩ',
+  good_afternoon: 'እንደምን ዋሉ', good_evening: 'እንደምን አመሹ',
+  university_lms: 'ዩኒቨርሲቲ LMS', centralized_mgmt: 'ማዕከላዊ ደብዳቤ አስተዳደር',
+  // ── Letters ──
+  register_letter: 'ደብዳቤ ይመዝግቡ', referral_number: 'ሪፈራል ቁጥር',
+  referral_placeholder: 'ለምሳሌ፦ ፋይ/ግዥ/045/2026', referral_hint: 'ቅርጸት፦ ክፍል/ዘርፍ/ተከታታይ/ዓመት',
+  referral_required: 'ደብዳቤ ከመላክ በፊት ሪፈራል ቁጥር ያስፈልጋል።',
+  referral_duplicate: 'ይህ ሪፈራል ቁጥር አስቀድሞ አለ።',
+  sender: 'የላኪ ስም', organization: 'ድርጅት', subject: 'ርዕሰ ጉዳይ',
+  department: 'ክፍል', date_received: 'የተቀበሉበት ቀን', date_prepared: 'የተዘጋጀበት ቀን',
+  priority: 'ቅድሚያ', status: 'ሁኔታ', remarks: 'አስተያየቶች', attachments: 'ሰነዶችን አያይዝ',
+  dispatch: 'ላክ', stamp_dispatch: 'ማህተም ጠቅ አድርጎ ላክ', dispatching: 'በመላክ ላይ...',
+  ref_no: 'ቁጥር', date: 'ቀን', from: 'ከ', to_office: 'ወደ ቢሮ',
+  mode: 'የማድረሻ ዘዴ', recipient: 'ተቀባይ', dispatch_method: 'የላኪ ዘዴ',
+  tracking_no: 'የክትትል ቁጥር', responsible_officer: 'ኃላፊ ባለሥልጣን',
+  related_incoming: 'ተዛማጅ የሚገባ', notes: 'ማስታወሻዎች',
+  priority_normal: 'መደበኛ', priority_urgent: 'አስቸኳይ', priority_confidential: 'ሚስጥራዊ',
+  // ── CC ──
+  cc_copies: 'ቅጂ / ሲሲ', add_copy: 'ቅጂ ጨምር', copy_no: 'ቅጂ ቁጥር',
+  concerned_body: 'ተመልካች አካል', copy_file: 'ፋይል (አማራጭ)', remove_copy: 'አስወግድ',
+  // ── Status ──
+  registered: 'ተመዝግቧል', forwarded: 'ተላልፏል', under_review: 'በግምገማ ላይ',
+  responded: 'ምላሽ ተሰጥቷል', closed: 'ተዘግቷል', dispatched: 'ተልኳል',
+  draft: 'ረቂቅ', approved: 'ጸድቋል', sent: 'ተልኳል', delivered: 'ደርሷል',
+  // ── Actions ──
+  save: 'አስቀምጥ', cancel: 'ሰርዝ', close: 'ዝጋ', edit: 'አርትዕ', delete: 'ሰርዝ',
+  restore: 'መልስ', view: 'ይመልከቱ', search: 'ፈልግ', filter: 'አጣራ', clear: 'አጽዳ',
+  export_csv: 'CSV ወደ ውጭ ላክ', upload: 'ጫን', add_user: 'ተጠቃሚ ጨምር', sign_out: 'ውጣ',
+  mark_read: 'እንደተነበበ ምልክት አድርግ', mark_all_read: 'ሁሉንም እንደተነበቡ ምልክት አድርግ',
+  responded_btn: 'ምላሽ ተሰጥቷል',
+  // ── Settings ──
+  language: 'ቋንቋ', select_language: 'ቋንቋ ይምረጡ', theme: 'ገጽታ',
+  notifications: 'ማሳወቂያዎች', system_settings: 'የስርዓት ቅንብሮች',
+  profile_settings: 'የመገለጫ ቅንብሮች', security_settings: 'የደህንነት ፖሊሲ',
+  notification_settings: 'የማሳወቂያ ቅንብሮች', language_settings: 'ቋንቋ',
+  org_settings: 'የድርጅት ቅንብሮች', letter_config: 'የደብዳቤ ቅንብሮች',
+  workflow: 'የሁኔታ ሂደት', file_mgmt: 'የፋይል አስተዳደር', backup: 'ምትኬ እና ጥገና',
+  sys_info: 'የስርዓት መረጃ', audit_log: 'የኦዲት ምዝገባ', admin_access: 'የአስተዳዳሪ መዳረሻ',
+  view_only_sections: 'አንዳንድ ክፍሎች ለማየት ብቻ',
+  // ── Users ──
+  user_management: 'የተጠቃሚ አስተዳደር', add_user_title: 'አዲስ ተጠቃሚ ጨምር', edit_user: 'ተጠቃሚ አርትዕ',
+  delete_user: 'ተጠቃሚ ሰርዝ', user_role: 'ሚና', user_group: 'ቢሮ', username: 'የተጠቃሚ ስም',
+  password: 'የይለፍ ቃል', full_name: 'ሙሉ ስም', email: 'ኢሜይል', reset_password: 'የይለፍ ቃል ዳግም አስጀምር',
+  // ── Reports ──
+  reports_analytics: 'ሪፖርቶች እና ትንታኔ', showing_data: 'ውሂብ ለ',
+  incoming_by_status: 'የሚገቡ በሁኔታ', priority_dist: 'የቅድሚያ ስርጭት',
+  outgoing_by_status: 'የሚወጡ በሁኔታ', letters_by_dept: 'ደብዳቤዎች በክፍል',
+  resolution_rate: 'የፍቺ ምጣኔ', quick_stats: 'ፈጣን ስታቲስቲክስ',
+  with_attachments: 'ከፋይሎች ጋር', letters_with_cc: 'ከቅጂ ጋር ደብዳቤዎች',
+  total_cc_copies: 'ጠቅላላ ቅጂዎች', pending_letters: 'በመጠባበቅ ላይ',
+  // ── Notifications ──
+  new_letter: 'አዲስ ደብዳቤ', urgent_prefix: 'አስቸኳይ', no_notifications: 'ምንም ማሳወቂያ የለም',
+  unread: 'ያልተነበቡ', read: 'ተነብቧል', new_outgoing_dispatched: 'አዲስ የሚወጣ ደብዳቤ ተልኳል።',
+  reference: 'ማጣቀሻ',
+  // ── General ──
+  loading: 'በመጫን ላይ...', no_data: 'ምንም ውሂብ አልተገኘም', welcome: 'እንኳን ደህና መጡ',
+  lms_portal: 'LMS ፖርታል', letter_management: 'ደብዳቤ አስተዳደር',
+  showing: 'ማሳያ', of: 'ከ', letters: 'ደብዳቤዎች', total: 'ጠቅላላ',
+  all_statuses: 'ሁሉም ሁኔታዎች', all_priorities: 'ሁሉም ቅድሚያዎች',
+  no_letters_found: 'ምንም ደብዳቤ አልተገኘም', no_users_found: 'ምንም ተጠቃሚ አልተገኘም',
+  collapse: 'ሰብስብ', search_placeholder: 'ደብዳቤዎችን ፈልግ...', search_ref: 'ቁጥር፣ ላኪ፣ ርዕስ ፈልግ...',
+  search_staff: 'ሰራተኛ ፈልግ...',
+  // ── Help ──
+  help_title: 'እርዳታ እና ድጋፍ', how_can_we_help: 'እንዴት ልንረዳዎ እንችላለን?',
+  search_help: 'የእርዳታ ጽሑፎችን ፈልግ...', topics: 'ርዕሶች', still_need_help: 'ተጨማሪ እርዳታ ይፈልጋሉ?',
+  contact_admin: 'አስተዳዳሪን ያነጋግሩ',
+  // ── Profile ──
+  my_profile: 'የእኔ መገለጫ', personal_info: 'የግል መረጃ', change_password: 'የይለፍ ቃል ቀይር',
+  current_password: 'የአሁኑ የይለፍ ቃል', new_password: 'አዲስ የይለፍ ቃል', confirm_password: 'አዲስ የይለፍ ቃል አረጋግጥ',
+  // ── Tracking ──
+  letter_tracking: 'ደብዳቤ ክትትል', track: 'ክትትል ያድርጉ', letter_journey: 'የደብዳቤ ጉዞ',
+  letter_details: 'የደብዳቤ ዝርዝሮች', not_found: 'ማጣቀሻ አልተገኘም',
+  // ── Archive ──
+  archive_records: 'መዝገብ ቤት', total_records: 'ጠቅላላ መዝገቦች',
+  all_records: 'ሁሉም መዝገቦች', completed: 'የተጠናቀቁ', with_files: 'ከፋይሎች ጋር',
+  // ── Recycle Bin ──
+  recycle_bin_title: 'ቆሻሻ መጣያ', my_deleted: 'የተሰረዙ ንጥሎቼ',
+  system_recycle: 'የስርዓት ቆሻሻ መጣያ', permanently_deleted_after: 'ንጥሎች ከ',
+  days: 'ቀናት በኋላ ይሰረዛሉ', expires: 'ጊዜው አልቋል', restore_item: 'ንጥሉን መልስ',
+  // ── Chat ──
+  messages_title: 'መልዕክቶች', select_staff: 'ለማውራት ሰራተኛ ይምረጡ',
+  private_messages: 'መልዕክቶች በእርስዎ እና ተቀባዩ መካከል ብቻ ናቸው',
+  no_messages: 'ምንም መልዕክት የለም። ሰላም ይበሉ!', quick_messages: 'ፈጣን መልዕክቶች',
+  send_to_all: 'ለሁሉም ባልደረቦች ላክ', type_for_everyone: 'ለሁሉም መልዕክት ይጻፉ...',
+  send_all: 'ሁሉንም ላክ', sent: 'ተልኳል!', replying_to: 'ምላሽ ለ',
+  edited: 'ተስተካክሏል', message_deleted: 'ይህ መልዕክት ተሰርዟል',
+};

@@ -1,0 +1,33 @@
+node_modules
+.env
+.env.*
+dist
+*.log
+.DS_Store
+uploads/
+
+# Stray files at root (code fragments accidentally created as files)
+clearInterval*
+setIsMobile*
+setLoading*
+setMenuFor*
+window.removeEvent*
+e.currentTarget*
+l.priority
+m._id
+String*
+u.id
+v))
+w[0]*
+b[1]
+0
+({
+(
+{
+{})
+['Registered'*
+['Responded'*
+[...prev
+
+# Nested git folder
+lms/.git/
